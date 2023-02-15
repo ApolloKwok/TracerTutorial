@@ -7,10 +7,10 @@ theme = "geekdocs"
 #pygmentsCodefencesGuessSyntax = true
 #pygmentsUseClasses = true
 
-[module]
-[module.hugoVersion]
-extended = true
-min = "0.55.0"
+#[module]
+#[module.hugoVersion]
+#extended = true
+#min = "0.55.0"
 
 # Controls how many words are printed in the content summary on the docs homepage.
 # See https://gohugo.io/content-management/summaries/
