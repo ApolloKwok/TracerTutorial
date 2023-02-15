@@ -1,4 +1,4 @@
-baseURL = "https://apollokwok.github.io/TracerTutorial.com"
+baseURL = "https://apollokwok.github.io/TracerTutorial/"
 languageCode = "en-us"
 title = "Tracer Tutorial"
 theme = "geekdocs"
