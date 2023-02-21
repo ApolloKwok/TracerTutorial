@@ -1,6 +1,6 @@
 baseURL = "https://apollokwok.github.io/TracerTutorial/"
 languageCode = "en-us"
-title = "Geekdoc"
+title = "Tracer Tutorial"
 theme = "hugo-geekdoc"
 
 pluralizeListTitles = false
