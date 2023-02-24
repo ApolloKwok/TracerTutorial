@@ -1,5 +1,5 @@
 ---
-title: "Details"
+title: Details
 date: 2023-02-19T20:43:59+08:00
 weight: 2
 ---

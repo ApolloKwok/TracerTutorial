@@ -1,11 +1,11 @@
 ---
-title: "Preview"
+title: Preview
 weight: 1
 ---
 
 {{< columns size=small >}}
 ![](../simpleHouse.png)
 <--->
-Without any configuration else, these five objects are shared with each other.
-{{< video src="preview effect" height="550">}}
+There aren't any configuration else. 
+{{< video src="preview" height="850">}}
 {{< /columns >}}

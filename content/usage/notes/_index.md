@@ -1,7 +1,10 @@
 ---
-title: "Notes"
+title: Notes
 weight: 3
 ---
+
+Unexplained norms below must be confusing to tyros. Just obey them!
+1, Always inject with `prival val x get() = ...`.
 
 1, `Kotlin Native` and `Kotlin JS` are not supported. Because they lack `context receiver` which is
 essential in this tool.
@@ -26,3 +29,8 @@ or annotate them with`@Tracer.Declare(false)`.
 e.g.: todo
 
 7, 如果 super abstract class 和 self 均有 Root /Nodes 标记，那么 super abstract class 中最好不要 override self
+
+4, 解释 common type 的标准  
+5, alias type 中带 * 可能会因为 multi-bounds 导致结果不准确  
+9, 对于带泛型 / open / abstract class, 因为复用率高，不会从 property type trace, 对于会被多次构造的 class，应让 programmer
+尽量少去探索次内部的东西
