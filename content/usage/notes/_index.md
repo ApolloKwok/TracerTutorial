@@ -25,7 +25,7 @@ with `tracer`.
 
 6, Few generated types fail code inspection, mostly because of the imperfect authoritative type
 inference system. Find their corresponding source properties or super types, then use another type
-or annotate them with`@Tracer.Declare(false)`.
+or annotate them with`@Tracer.Omitted`.
 e.g.: todo
 
 7, 如果 super abstract class 和 self 均有 Root /Nodes 标记，那么 super abstract class 中最好不要 override self

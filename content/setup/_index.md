@@ -35,7 +35,7 @@ Add this part directly, rather than insert messily.
 //region tracer
 // options
 ksp{
-//    arg("tracer.allInternal", "")
+//    arg("tracer.allInternallyGenerated", "")
 //    arg("tracer.propertiesFullName", "")
 }
 
