@@ -6,7 +6,7 @@ weight: 1
 ## Root
 <img src=../../simpleHouse.png width=300/>
 
-Each class annotated with `Tracer.Root` and considered as the tracing start point. Its module-visible 
+Each class annotated with `Tracer.Root` is considered as the tracing start point. Its module-visible 
 elements would be traced as below. 
 {{< video src="root" >}}
 
