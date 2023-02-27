@@ -25,9 +25,9 @@ weight: 2
   names different. `nullability` `suspend` and `variance` are omitted in type equality comparison.
 
   {{< columns size=small >}}
-  <img src=x.png/> 
+  ![](x.png)
   <--->
-  <img src=y.png/>
+  ![](y.png)
   {{< /columns >}}
   <img src=xyElements.png />
 ---
