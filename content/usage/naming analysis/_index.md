@@ -25,24 +25,18 @@ weight: 2
   names different. `nullability` `suspend` and `variance` are omitted in type equality comparison.
 
   {{< columns size=small >}}
-  ![](x.png)
-  <--->
-  ![](y.png)
+  ![](x.png)<--->![](y.png)
   {{< /columns >}}
   <img src=xyElements.png />
 ---
 
 * Generic type with a single bound
   {{< columns size=small >}}
-  <img src=generic.png/>
-  <--->
-  <img src=_generic.png />
+  ![](generic.png)<--->![](_generic.png)
   {{< /columns >}}
 ---
 
 * Generic type with multiple bounds
   {{< columns size=small >}}
-  <img src=compound.png/>
-  <--->
-  <img src=_compound.png />
-  {{< /columns >}}
+  ![](compound.png) <---> ![](_compound.png)
+  {{< /columns >}} 
