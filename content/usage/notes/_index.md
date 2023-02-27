@@ -3,8 +3,8 @@ title: Notes
 weight: 4
 ---
 
-Unexplained norms below must be confusing to tyros. Just obey them!
-* Always inject with `prival val x get() = ...`.
+* Always inject like `prival val x get() = ...`. Just obey it which is confusing to tyros, but 
+  automatically understandable when you get familiar.
 
 * `Kotlin Native` and `Kotlin JS` are not supported. Because they lack `context receiver` which is
 essential in this tool.
