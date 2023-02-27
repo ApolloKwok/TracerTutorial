@@ -3,6 +3,8 @@ title: Expected optimization
 weight: 8
 ---
 
+`Tracer` is not perfect, but can be optimized much if the `IDE` and `Kotlin plugin` cooperate. 
+
 1, Too many hints when you input `_X.` in a big project.
 (after the visibility, of functions with context receivers, is fixed -> new generated tracer
 property would replace the receiver with context receiver. Then there wouldn't be redundant
