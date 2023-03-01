@@ -23,7 +23,7 @@ inside `House` but outside `Bedroom`.
 <br><br>
 {{< /expand >}}
 
-{{< expand "Tips">}}
+{{< expand "Tip">}}
 * Classes from other modules or Java are considered as foreigners. They wouldn't be 
 explored inside, and you needn't to consider `Tracer.Nodes` for them.  
 ... other conditions

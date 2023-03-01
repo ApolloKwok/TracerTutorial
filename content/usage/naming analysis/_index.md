@@ -3,7 +3,9 @@ title: Property naming analysis
 weight: 2
 ---
 
-* `__`: beginning with double `_` tells it's from outside like getting `WifiRouter` as below.  
+* `__`: beginning with double `_` tells it's from outside like getting `WifiRouter` outside 
+  `BedroomTracer` as below. 
+  ## add video
   <img src=outside.png width=500/>
 ---
 
@@ -23,6 +25,7 @@ weight: 2
 
 * As shown below, there are 3 houses inside `X`, making their corresponding generated property
   names different. `nullability` `suspend` and `variance` are omitted in type equality comparison.
+  ## add image
 
   {{< columns size=small >}}
   ![](x.png)<--->![](y.png)
