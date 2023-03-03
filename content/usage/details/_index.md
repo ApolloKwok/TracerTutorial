@@ -11,10 +11,6 @@ weight: 3
 ---
 * Partial super types are traceable. including src klass 截止到 foreign module or Java\
 
-*
-截止探索 element 的条件\
-tags.AllInternal\
-tags.propertiesFullName\
-Omit 的用法\
-Tips 的用法 \
-支持 var\
+* Tags: tags.AllInternallyGenerated, tags.propertiesFullName\
+
+* var is supported and able to be optimized like `private var x by ::_X` in the future.

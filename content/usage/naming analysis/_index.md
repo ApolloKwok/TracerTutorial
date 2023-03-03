@@ -3,14 +3,13 @@ title: Property naming analysis
 weight: 2
 ---
 
-* `__`: beginning with double `_` tells it's from outside like getting `WifiRouter` outside 
-  `BedroomTracer` as below. 
-  ## add video
-  <img src=outside.png width=500/>
+* `__` : beginning with double `_` tells it's from outside. 
+  <img src="../comprehensiveHouse.png" height=220/>  
+  <img src=underline.png width=300/>
 ---
 
-* `˚`: as shown in the image above, `˚House` means that `House` is the nearest owner annotated
-  with `Tracer.Root` or `Tracer.Nodes` of that `WifiRouter`.
+* `˚`: as shown in the image above, `˚House` means that `House` is the nearest owner with 
+`@Tracer.Root` or `Tracer.Nodes` of that `WifiRouter`.
 ---
 
 * `suspend () -> Pair<Pillow, Pillow>?` would be converted to `⍒❨❩-›Pair‹Pillow，Pillow›？`.
@@ -23,9 +22,9 @@ weight: 2
   `Array‹↑House›`
 ---
 
-* As shown below, there are 3 houses inside `X`, making their corresponding generated property
-  names different. `nullability` `suspend` and `variance` are omitted in type equality comparison.
-  ## add image
+* As shown below, there are three similar lambdas and traced with owner name or property name 
+  further. Because elements with same types are traced with more info to distinguish, and 
+  `nullability``suspend` and `variance` are omitted in type equality comparison to hint better.
 
   {{< columns size=small >}}
   ![](x.png)<--->![](y.png)

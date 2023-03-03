@@ -31,3 +31,5 @@ class XImpl : X(), XImplTracer{
 4, Implement tracer interfaces automatically.
 
 5, Override and solve the conflict automatically.
+
+6, 生成结构图

@@ -45,9 +45,9 @@ tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).configureEach {
 
 dependencies {
     // Keep this version latest with the prefix lower than your kotlin version(inclusive). 
-    ksp 'io.github.apollokwok:tracer-common-compiler:1.7.20-1.1.0'
+    ksp 'io.github.apollokwok:tracer-common-compiler:1.7.20-1.2.0'
     // Keep this version latest but lower than the version above(inclusive). 
-    implementation 'io.github.apollokwok:tracer-common-annotations:1.7.20-1.1.0'
+    implementation 'io.github.apollokwok:tracer-common-annotations:1.7.20-1.2.0'
 }
 //endregion 
 ```
