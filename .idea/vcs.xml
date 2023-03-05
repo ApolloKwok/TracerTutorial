@@ -2,8 +2,6 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/themes/geekdocs" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/themes/hugo-video" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/themes/whisper" vcs="Git" />
   </component>
 </project>

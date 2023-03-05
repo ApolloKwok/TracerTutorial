@@ -36,7 +36,7 @@ Add this part directly, rather than insert messily.
 // options
 ksp{
 //    arg("tracer.allInternallyGenerated", "")
-//    arg("tracer.propertiesFullName", "")
+//    arg("tracer.fullNameProperties", "")
 }
 
 tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).configureEach {

@@ -33,3 +33,8 @@ class XImpl : X(), XImplTracer{
 5, Override and solve the conflict automatically.
 
 6, 生成结构图
+
+7, Let android lift restriction on property names.
+
+8. incremental processing after `aware of generated code` is supported
+    1. check name conflict of all files after `getAllFiles(truly: Boolean)` is supported

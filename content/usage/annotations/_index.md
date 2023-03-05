@@ -51,7 +51,8 @@ insides if qualified.
 {{< expand "Omit" >}}
 Properties and super types with `@Tracer.Omit` would be omitted, which is generally used 
 with some unsupported new syntaxes, e.g. `T & Any` before `ksp 1.8.0-1.0.9`(exclusive), 
-and `context receiver`. Super type trace rules are later explained in page Details.   
+and `context receiver`. Super type trace rules are later explained on page 
+[Details](https://apollokwok.github.io//TracerTutorial/usage/details/#partial-super-types-are-traceable).   
 <br> 
 {{<video src="omit" >}}
 {{< /expand >}}
