@@ -6,7 +6,7 @@ weight: 2
 
 Configure your `build.gradle` as below.
 
-## Add the ksp plugin
+## Ksp plugin
 ```groovy
 plugins{
     // Assuming your kotlin version is `1.7.21`, here uses the latest ksp plugin version beginning 
@@ -16,7 +16,7 @@ plugins{
 ```
   
 &nbsp;
-## Add source sets
+## Source sets
 Skip this step if your ksp plugin version is '1.8.0-1.0.9' or higher.  
 This part is different if you are using IntelliJ IDEA and KSP in a Gradle plugin. 
 (See [ksp quickstart](https://kotlinlang.org/docs/ksp-quickstart.html#make-ide-aware-of-generated-code))
@@ -29,7 +29,7 @@ kotlin.sourceSets {
 ```
 
 &nbsp;
-## Configure tracer
+## Tracer
 Add this part directly, rather than insert messily.
 ```groovy
 //region tracer

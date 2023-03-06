@@ -38,10 +38,10 @@ If `Living room` needs the quilt from `master bedroom`'s`Bed`, use
 
 {{< expand "Tip">}}
 `Tracer.Tip` represents the trace end, meaning elements of annotated classes wouldn't be traced 
-insides. Furthermore, classes are considered as `Tracer.Tip` by default if they are from other 
-modules or Java files, or with rebuilt symbols (type parameters, value parameters in the 
-constructor, abstract or open). Like `Tracer.Root` classes, they should avoid being exploring too 
-insides if qualified.
+insides. Furthermore, classes are considered as `Tracer.Tip` by default if they are foreign (from 
+other modules, generated code, or Java files), or with rebuilt symbols (type parameters, value 
+parameters in the constructor, abstract or open). Like `Tracer.Root` classes, they should avoid 
+being exploring too insides if qualified.
 
 {{< columns size=small >}}
 <img src=tip.png><---><img src=_tip.png>
@@ -52,7 +52,7 @@ insides if qualified.
 Properties and super types with `@Tracer.Omit` would be omitted, which is generally used 
 with some unsupported new syntaxes, e.g. `T & Any` before `ksp 1.8.0-1.0.9`(exclusive), 
 and `context receiver`. Super type trace rules are later explained on page 
-[Details](https://apollokwok.github.io//TracerTutorial/usage/details/#partial-super-types-are-traceable).   
+[Details](https://apollokwok.github.io//TracerTutorial/usage/details/#partial-traceable-super-types).
 <br> 
 {{<video src="omit" >}}
 {{< /expand >}}

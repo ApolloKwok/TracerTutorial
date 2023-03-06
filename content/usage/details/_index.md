@@ -10,7 +10,7 @@ weight: 3
   ![](_generic.png)
   <br><br>
 
-## Built times of traced element types would be displayed.
+## Built times of traced element types would be displayed
   ![](builtTimesComment.png)
   <br><br>
 
@@ -28,9 +28,8 @@ weight: 3
   {{<video src=option >}}
   <br><br>
 
-## Var   
-
-  Source code
+## Var
+  **Source code**
   ```kotlin
   @Tracer.Root
   class VarSample : VarSampleTracer{
@@ -41,7 +40,7 @@ weight: 3
   }
   ```
 
-  Generated code    
+  **Generated code**    
   ```kotlin
   public var VarSampleTracer._Foo 
     inline get() = _VarSample.foo as Foo    
@@ -50,7 +49,7 @@ weight: 3
     }
   ```
 
-  Reference sample   
+  **Reference sample**   
   ```kotlin 
   context (VarSampleTracer)
   class Baz{
@@ -62,7 +61,7 @@ weight: 3
   }
   ```  
 
-  Expected reference after authoritative support.
+  **Expected reference after authoritative support.**
   ```kotlin
   context (VarSampleTracer)
   class Baz{
@@ -71,7 +70,7 @@ weight: 3
   ```
  <br>
 
-## Abstract / Open class elements
+## Abstract / open class elements 
 Elements inside abstract and open classes are all traced with level tags (`_˚NonFinalSample` in 
 this case) to be distinguished in subclasses.  
 

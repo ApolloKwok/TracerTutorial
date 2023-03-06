@@ -4,8 +4,8 @@ weight: 10
 ---
 
 This tutorial is very clear and worth learned by most authoritative IT tutorials, which is mainly 
-because of bosses' overlooking rather than myself. 
-- Let better developers write tutorials. Most tutorial code I ever seen are half redundant. 
+because of bosses' overlooking rather than myself. Below is my advice. 
+- Let better developers write tutorials. Most tutorial code I've ever seen are half redundant. 
 - Embed short videos with speeding up, effect display, and concise hints instead of all voluminous 
   texts.  
 - Inspire them by relating their salaries to feedbacks.
