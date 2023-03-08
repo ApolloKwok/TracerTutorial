@@ -1,7 +1,7 @@
 baseURL = "https://apollokwok.github.io/TracerTutorial/"
 languageCode = "en-us"
 title = "Tracer Tutorial"
-theme = ["hugo-video", "hugo-geekdoc"]
+theme = ["hugo-video", "hugo-book"]
 
 pluralizeListTitles = false
 
