@@ -41,7 +41,7 @@ cases which should be displayed here.
   `MyTypeAlias<*>` is converted to `Pair<A<*>, B<*>>` first, and 
   `Pair<A<out Iterable<String>>, B<out List<CharSequence>>>` next. 
 ---  
-* Super types with compound args are not limited.  
+* Multiple bounds
 
   Source Code
   ```kotlin
@@ -68,4 +68,4 @@ cases which should be displayed here.
       inline get() = `_CompoundTypeSample`.`sub` as Super<*>
   ```
   
-  `*` in `Sub<*>` has two bounds, which, however, can't be expressed in `Super<*>`. 
+  Conclusion: `*` in `Sub<*>` has two bounds, which, however, can't be expressed in `Super<*>`. 

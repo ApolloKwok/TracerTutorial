@@ -3,13 +3,11 @@ title: My words
 weight: 10
 ---
 
-This tutorial is very clear and worth learned by most authoritative IT tutorials, which is mainly 
-because of bosses' overlooking rather than myself. Below is my advice. 
+This tutorial is clear and worth learning by most authoritative IT tutorials, which is mainly 
+because of bosses' belittling rather than myself. Below is my advice. 
 - Let better developers write tutorials. Most tutorial code I've ever seen are half redundant. 
 - Embed short videos with speeding up, effect display, and concise hints instead of all voluminous 
   texts.  
-- Inspire them by relating their salaries to feedbacks.
-- Update with projects or applications.
 
 Code in this project is probably the globally best at present for its functionality, creativity,
 difficulty, structure, efficiency, and beauty. Wish you could learn from it！Note that it is too 
