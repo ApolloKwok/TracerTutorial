@@ -15,29 +15,27 @@ weight: 2
   <br><br>
 
 ## Generic type 
-  {{< expand "Single bound">}}
+  {{< details "Single bound">}}
   ![](generic(1).png)
     
   ---
     
   ![](_generic(1).png)
-  {{< /expand >}}
-  
-  {{< expand "Multiple bounds" >}} 
+  {{< /details >}}
+  {{< details "Multiple bounds" >}} 
   ![](generic(2).png) 
 
   ---
 
   ![](_generic(2).png)
-  {{< /expand >}}
-
-  {{< expand " Covariance(↓) may be needed." >}} 
+  {{< /details >}}
+  {{< details " Covariance(↓) may be needed." >}} 
   ![](generic(3).png) 
   
   --- 
   
   ![](_generic(3).png)
-  {{< /expand >}}
+  {{< /details >}}
   <br>
 
 ## Position qualifier
