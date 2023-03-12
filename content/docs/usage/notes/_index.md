@@ -4,7 +4,7 @@ weight: 4
 ---
 
 {{< hint info >}}
-Problems below are so unusual that you could read it later or when you get puzzled.
+Notes below are so unusual that you could read it later or when you get puzzled.
 {{< /hint >}}
 
 * Few generated types fail code inspection, mostly because of the imperfect authoritative type.

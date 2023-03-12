@@ -39,7 +39,7 @@ weight: 2
   <br>
 
 ## Position qualifier
-  * `__` : beginning with double `_` tells it's from outside. See 
+  * `__` : beginning with `__` tells it's from outside. See 
     [Annotations.Nodes](https://apollokwok.github.io/TracerTutorial/usage/annotations/nodes.mp4) if
     you forget other code.  
     <img src=../doubleBedroomsHouse.png height=220/>  

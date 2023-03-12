@@ -17,7 +17,7 @@ plugins{
   
 &nbsp;
 ## Source sets
-Skip this step if your ksp plugin version is '1.8.0-1.0.9' or higher.  
+Skip this step if your ksp plugin version is `1.8.0-1.0.9` or higher.  
 This part is different if you are using IntelliJ IDEA and KSP in a Gradle plugin. 
 (See [ksp quickstart](https://kotlinlang.org/docs/ksp-quickstart.html#make-ide-aware-of-generated-code))
 ```groovy
